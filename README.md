@@ -11,6 +11,13 @@ This repository is my independent learning assignment called The Digital Detecti
 
 Each mission in this project is done one by one in order. Every mission has its own folder and its own README file documenting the work, the tools used, what I understood, and the problems I had to fix. Each mission is saved with its own separate git commit.
 
+## My Learning
+
+So far in this project, I have learned several important concepts:
+1. I learned how the terminal works and how simple commands like pwd, ls, and cd let me navigate folders and inspect files without needing a mouse.
+2. I learned how the operating system acts as the central manager for CPU, memory, and file permissions so programs can run safely.
+3. I learned how data is stored as binary numbers, how to convert numbers between decimal, binary, and hexadecimal by hand and with Python, and why computers use UTF-8 to store text characters.
+
 ## Mission Index
 
 - Mission 00: Workspace and Repository Setup
