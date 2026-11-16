@@ -7,16 +7,21 @@ Repository URL: https://github.com/selfobsessedguy/digital-detective-8084
 
 ## About This Project
 
-This repository is my independent learning assignment called The Digital Detective. In this assignment, I am exploring how computers work from the very beginning. I am learning terminal commands, how the operating system handles programs and files, how computers represent numbers and text using binary, how to write a simple Python number converter, how version control works with Git and GitHub, and how networks send data across the internet.
+This repository contains my completed work for The Digital Detective, a Diwali Independent Learning Assignment. The purpose of this assignment is to explore how computer systems function from the ground up, gain practical experience with terminal commands, understand how operating systems manage hardware and programs, learn how numbers and characters are stored in binary format, write a small Python conversion utility, practice Git version control workflows, and understand computer networking fundamentals.
 
-Each mission in this project is done one by one in order. Every mission has its own folder and its own README file documenting the work, the tools used, what I understood, and the problems I had to fix. Each mission is saved with its own separate git commit.
+Every mission in this project has been completed in order, documented in its own dedicated mission folder, and committed with its own descriptive git commit message.
 
-## My Learning
+## Topics Explored
 
-So far in this project, I have learned several important concepts:
-1. I learned how the terminal works and how simple commands like pwd, ls, and cd let me navigate folders and inspect files without needing a mouse.
-2. I learned how the operating system acts as the central manager for CPU, memory, and file permissions so programs can run safely.
-3. I learned how data is stored as binary numbers, how to convert numbers between decimal, binary, and hexadecimal by hand and with Python, and why computers use UTF-8 to store text characters.
+- Mission 00: Workspace preparation, repository naming conventions, checking Python and Git installations.
+- Mission 01: Computer basics, the IPOS (Input, Processing, Output, Storage) model, hardware and software categories, everyday embedded computer systems.
+- Mission 02: Essential terminal commands, file and directory management, command line flags, input and output redirection, pipes, and package managers.
+- Mission 03: Operating system responsibilities, kernel details, user sessions, disk storage usage, running processes and PIDs, absolute versus relative paths, and file permissions.
+- Mission 04: Program execution, running Python scripts, and a detailed comparison between compilers and interpreters.
+- Mission 05: Data representation, manual conversions between decimal, binary, and hexadecimal, verification with Python built-ins, writing a number converter script, and character encoding with ASCII and UTF-8.
+- Mission 06: Version control fundamentals, repository status, staging versus committing, branching with an update-about branch, Pull Request collaboration concepts, and a Git glossary.
+- Mission 07: Computer networking concepts (LAN, MAN, WAN, DNS, Router, Protocol, Packet switching, Client-server), network diagnostics with ping and nslookup, and a step-by-step breakdown of how a web browser opens a website.
+- Mission 08: Final review, repository verification, and completion checklist.
 
 ## Mission Index
 
@@ -47,9 +52,30 @@ So far in this project, I have learned several important concepts:
 - Mission 08: Final Report and Checklist
   Link: [mission-08-final-report/README.md](file:///Users/abdulmannan/.gemini/antigravity/scratch/digital-detective-8084/mission-08-final-report/README.md)
 
+## How to Run the Number Converter
+
+To test and run the Python number converter built in Mission 05:
+
+1. Open your terminal.
+2. Change directory into the Mission 05 folder:
+   cd mission-05-numbers-data
+3. Run the Python script:
+   python3 number_converter.py
+4. Type any positive decimal number when prompted (for example: 13, 25, or 42) and press Enter.
+5. The program will print out the equivalent binary representation (prefixed with 0b) and hexadecimal representation (prefixed with 0x).
+
+## My Learning
+
+Throughout this assignment, I learned:
+1. How the terminal works and how simple commands like pwd, ls, and cd let me navigate folders and inspect files without needing a mouse.
+2. How the operating system acts as the central manager for CPU, memory, and file permissions so programs can run safely without interfering with each other.
+3. How computers store all data as numbers and electrical bits, how to convert numbers between decimal, binary, and hexadecimal by hand and with Python, and why computers use UTF-8 to store text characters.
+4. How Git version control protects project history by saving distinct snapshots, and how branching allows developers to experiment safely before merging back to main.
+5. How networks connect computers globally through packet switching and DNS translation so we can browse websites seamlessly.
+
 ## Rules Followed
 
-- All missions completed in order.
-- No personal passwords, tokens, or private ip addresses are included.
-- All explanations are written in my own words as I learn each topic.
-- Each mission has its own git commit.
+- All missions were completed strictly in order from Mission 00 to Mission 08.
+- Each mission was individually documented in its own README file and committed separately with a meaningful git commit message.
+- Personal information such as usernames, personal home IP addresses, Wi-Fi names, and tokens have been completely excluded or redacted as [redacted].
+- All explanations are written in my own words as a beginner student learning computer science.
